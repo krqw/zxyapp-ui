@@ -4,10 +4,15 @@
   "version": "1.0.0",
   "author": "wuzhengquan@zhixueyun.com",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "homepage": "https://github.com/krqw/zxyapp-ui/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krqw/zxyapp-ui.git"
   },
   "dependencies": {
     "vue": "^2.5.11"
@@ -31,5 +36,12 @@
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/krqw/zxyapp-ui/issues"
+  },
+  "main": "webpack.config.js",
+  "keywords": [
+    "zxyappui"
+  ]
 }
