@@ -1,7 +1,7 @@
 {
   "name": "zxyapp-ui",
   "description": "zxy app ui",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "wuzhengquan@zhixueyun.com",
   "license": "MIT",
   "private": false,
@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/krqw/zxyapp-ui/issues"
   },
-  "main": "webpack.config.js",
+  "main": "src/lib/index.js",
   "keywords": [
     "zxyappui"
   ]
