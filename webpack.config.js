@@ -6,7 +6,10 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'build.js'
+    filename: 'zxyapp-ui.js',
+    library: 'zxyapp-ui',
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   module: {
     rules: [

@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-    <Button>test button</Button>
+    <zxy-button>11</zxy-button>
   </div>
 </template>
 
 <script>
-import Button from './lib/button/button'
+import { Button } from "zxyapp-ui"
+import Vue from "vue"
+Vue.component(Button.name, Button);
 export default {
   name: 'app',
   data () {
@@ -13,7 +15,6 @@ export default {
     }
   },
   components: {
-    Button
   }
 }
 </script>
